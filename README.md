@@ -15,6 +15,7 @@ This project allows users to upload datasets, perform real-time data visualizati
 - [Installation](#installation)
 - [Usage](#usage)
 - [Applications](#applications)
+- [Folder Structure](#folder-structure)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [License](#license)
@@ -113,7 +114,42 @@ Upload company data to forecast sales, customer churn, or behavior with ease.
 - Interactive, responsive charts with HTML/CSS/JS and Chart.js.
 - Supports 1D, 2D, and 3D graphs depending on column selection.
 
+## Folder Structure 
 
+```
+DataVisualizationandModelPre.../
+├── MyApp/
+│   ├── Code/
+│   │   └── PythonCodes/
+│   │       ├── __pycache__/
+│   │       ├── classification.py
+│   │       ├── clustering.py
+│   │       ├── dataanalysis.py
+│   │       ├── preprocess.py
+│   │       └── regression.py
+│   ├── Templates/
+│   │   ├── data_visualization.html
+│   │   ├── home.html
+│   │   ├── index.html
+│   │   ├── login2.html
+│   │   ├── model_prediction.html
+│   │   └── register2.html
+│   ├── __pycache__/
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── OutputScreenshots/
+├── LICENSE
+├── README.md
+├── db.sqlite3
+└── manage.py
+```
 ## Tech Stack
 ### Core Technologies
 ### Python
