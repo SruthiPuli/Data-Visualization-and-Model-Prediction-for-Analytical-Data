@@ -27,8 +27,8 @@ This project allows users to upload datasets, perform real-time data visualizati
 1. **Clone the repository:**
 
 ```
-git clone https://github.com/YourUsername/Data-Visualization-ML-Prediction.git
-cd Data-Visualization-ML-Prediction
+git clone https://github.com/YourUsername/Data-Visualization-and-Model-Prediction-for-Analytical-Data.git
+cd Data-Visualization-and-Model-Prediction-for-Analytical-Data
 ```
 
 #### 2. Install Dependencies :
