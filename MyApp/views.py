@@ -9,8 +9,6 @@ from django.conf import settings
 from django.http import JsonResponse
 from MyApp.Code.PythonCodes.preprocess import preprocess
 from MyApp.Code.PythonCodes.dataanalysis import analysis
-from MyApp.Code.PythonCodes.supervised import supervised_learning
-from MyApp.Code.PythonCodes.unsupervised import unsupervised_learning
 from MyApp.Code.PythonCodes.regression import regression_models
 from MyApp.Code.PythonCodes.classification import classification_models
 from MyApp.Code.PythonCodes.clustering import clustering_models
